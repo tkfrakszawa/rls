@@ -1,0 +1,764 @@
+{
+  "updated": "2026-11-16T20:44:07.544896+00:00",
+  "men": [
+    {
+      "id": 13,
+      "round": 1,
+      "date": "2026-11-22",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "Young Boys",
+      "score": null,
+      "time": "10:00"
+    },
+    {
+      "id": 18,
+      "round": 1,
+      "date": "2026-11-22",
+      "order": 2,
+      "a": "Orły",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null,
+      "time": "11:00"
+    },
+    {
+      "id": 15,
+      "round": 1,
+      "date": "2026-11-22",
+      "order": 3,
+      "a": "Oldboys",
+      "b": "Lucky Losers",
+      "score": null,
+      "time": "12:00"
+    },
+    {
+      "id": 16,
+      "round": 1,
+      "date": "2026-11-22",
+      "order": 4,
+      "a": "Renga SST Sportur Gmina Łańcut",
+      "b": "Street Warriors",
+      "score": null,
+      "time": "13:00"
+    },
+    {
+      "id": 14,
+      "round": 1,
+      "date": "2026-11-22",
+      "order": 5,
+      "a": "Zmarnowany Potencjał",
+      "b": "Sparta Wydrze",
+      "score": null,
+      "time": "14:00"
+    },
+    {
+      "id": 17,
+      "round": 1,
+      "date": "2026-11-22",
+      "order": 6,
+      "a": "NoName",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null,
+      "time": "17:30"
+    },
+    {
+      "id": 31,
+      "round": 2,
+      "date": "2026-11-29",
+      "order": 1,
+      "a": "Renga SST Sportur Gmina Łańcut",
+      "b": "Akademia TKF",
+      "score": null
+    },
+    {
+      "id": 32,
+      "round": 2,
+      "date": "2026-11-29",
+      "order": 2,
+      "a": "Lucky Losers",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null
+    },
+    {
+      "id": 33,
+      "round": 2,
+      "date": "2026-11-29",
+      "order": 3,
+      "a": "Orły",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 34,
+      "round": 2,
+      "date": "2026-11-29",
+      "order": 4,
+      "a": "Young Boys",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 35,
+      "round": 2,
+      "date": "2026-11-29",
+      "order": 5,
+      "a": "NoName",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 36,
+      "round": 2,
+      "date": "2026-11-29",
+      "order": 6,
+      "a": "Oldboys",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 1,
+      "round": 3,
+      "date": "2026-12-06",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "Oldboys",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 2,
+      "round": 3,
+      "date": "2026-12-06",
+      "order": 2,
+      "a": "Sparta Wydrze",
+      "b": "Street Warriors",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 3,
+      "round": 3,
+      "date": "2026-12-06",
+      "order": 3,
+      "a": "NoName",
+      "b": "Young Boys",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 4,
+      "round": 3,
+      "date": "2026-12-06",
+      "order": 4,
+      "a": "Zmarnowany Potencjał",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 5,
+      "round": 3,
+      "date": "2026-12-06",
+      "order": 5,
+      "a": "Orły",
+      "b": "Lucky Losers",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 6,
+      "round": 3,
+      "date": "2026-12-06",
+      "order": 6,
+      "a": "Renga SST Sportur Gmina Łańcut",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 19,
+      "round": 4,
+      "date": "2026-12-13",
+      "order": 1,
+      "a": "Zmarnowany Potencjał",
+      "b": "Akademia TKF",
+      "score": null
+    },
+    {
+      "id": 20,
+      "round": 4,
+      "date": "2026-12-13",
+      "order": 2,
+      "a": "Young Boys",
+      "b": "Lucky Losers",
+      "score": null
+    },
+    {
+      "id": 21,
+      "round": 4,
+      "date": "2026-12-13",
+      "order": 3,
+      "a": "Renga SST Sportur Gmina Łańcut",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 22,
+      "round": 4,
+      "date": "2026-12-13",
+      "order": 4,
+      "a": "Oldboys",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null
+    },
+    {
+      "id": 23,
+      "round": 4,
+      "date": "2026-12-13",
+      "order": 5,
+      "a": "Orły",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 24,
+      "round": 4,
+      "date": "2026-12-13",
+      "order": 6,
+      "a": "NoName",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 25,
+      "round": 5,
+      "date": "2026-12-20",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "Lucky Losers",
+      "score": null
+    },
+    {
+      "id": 26,
+      "round": 5,
+      "date": "2026-12-20",
+      "order": 2,
+      "a": "Renga SST Sportur Gmina Łańcut",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 27,
+      "round": 5,
+      "date": "2026-12-20",
+      "order": 3,
+      "a": "Young Boys",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null
+    },
+    {
+      "id": 28,
+      "round": 5,
+      "date": "2026-12-20",
+      "order": 4,
+      "a": "Orły",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 29,
+      "round": 5,
+      "date": "2026-12-20",
+      "order": 5,
+      "a": "Oldboys",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 30,
+      "round": 5,
+      "date": "2026-12-20",
+      "order": 6,
+      "a": "NoName",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 9,
+      "round": 6,
+      "date": "2027-01-10",
+      "order": 1,
+      "a": "Zmarnowany Potencjał",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 8,
+      "round": 6,
+      "date": "2027-01-10",
+      "order": 2,
+      "a": "Oldboys",
+      "b": "Young Boys",
+      "score": null
+    },
+    {
+      "id": 7,
+      "round": 6,
+      "date": "2027-01-10",
+      "order": 3,
+      "a": "Sparta Wydrze",
+      "b": "Akademia TKF",
+      "score": null
+    },
+    {
+      "id": 10,
+      "round": 6,
+      "date": "2027-01-10",
+      "order": 4,
+      "a": "NoName",
+      "b": "Lucky Losers",
+      "score": null
+    },
+    {
+      "id": 11,
+      "round": 6,
+      "date": "2027-01-10",
+      "order": 5,
+      "a": "Renga SST Sportur Gmina Łańcut",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 12,
+      "round": 6,
+      "date": "2027-01-10",
+      "order": 6,
+      "a": "Orły",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null
+    },
+    {
+      "id": 37,
+      "round": 7,
+      "date": "2027-01-17",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "Pod Rozbrykanym Kucykiem",
+      "score": null
+    },
+    {
+      "id": 38,
+      "round": 7,
+      "date": "2027-01-17",
+      "order": 2,
+      "a": "Orły",
+      "b": "Renga SST Sportur Gmina Łańcut",
+      "score": null
+    },
+    {
+      "id": 39,
+      "round": 7,
+      "date": "2027-01-17",
+      "order": 3,
+      "a": "Lucky Losers",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 40,
+      "round": 7,
+      "date": "2027-01-17",
+      "order": 4,
+      "a": "NoName",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 41,
+      "round": 7,
+      "date": "2027-01-17",
+      "order": 5,
+      "a": "Young Boys",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 42,
+      "round": 7,
+      "date": "2027-01-17",
+      "order": 6,
+      "a": "Oldboys",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 43,
+      "round": 8,
+      "date": "2027-02-07",
+      "order": 1,
+      "a": "Orły",
+      "b": "Akademia TKF",
+      "score": null
+    },
+    {
+      "id": 44,
+      "round": 8,
+      "date": "2027-02-07",
+      "order": 2,
+      "a": "Pod Rozbrykanym Kucykiem",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 45,
+      "round": 8,
+      "date": "2027-02-07",
+      "order": 3,
+      "a": "NoName",
+      "b": "Renga SST Sportur Gmina Łańcut",
+      "score": null
+    },
+    {
+      "id": 46,
+      "round": 8,
+      "date": "2027-02-07",
+      "order": 4,
+      "a": "Lucky Losers",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 47,
+      "round": 8,
+      "date": "2027-02-07",
+      "order": 5,
+      "a": "Oldboys",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 48,
+      "round": 8,
+      "date": "2027-02-07",
+      "order": 6,
+      "a": "Young Boys",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 49,
+      "round": 9,
+      "date": "2027-02-14",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "„Na Ketonalu” Żołynia",
+      "score": null
+    },
+    {
+      "id": 50,
+      "round": 9,
+      "date": "2027-02-14",
+      "order": 2,
+      "a": "NoName",
+      "b": "Orły",
+      "score": null
+    },
+    {
+      "id": 51,
+      "round": 9,
+      "date": "2027-02-14",
+      "order": 3,
+      "a": "Pod Rozbrykanym Kucykiem",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 52,
+      "round": 9,
+      "date": "2027-02-14",
+      "order": 4,
+      "a": "Oldboys",
+      "b": "Renga SST Sportur Gmina Łańcut",
+      "score": null
+    },
+    {
+      "id": 53,
+      "round": 9,
+      "date": "2027-02-14",
+      "order": 5,
+      "a": "Lucky Losers",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 54,
+      "round": 9,
+      "date": "2027-02-14",
+      "order": 6,
+      "a": "Young Boys",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 55,
+      "round": 10,
+      "date": "2027-02-21",
+      "order": 1,
+      "a": "NoName",
+      "b": "Akademia TKF",
+      "score": null
+    },
+    {
+      "id": 56,
+      "round": 10,
+      "date": "2027-02-21",
+      "order": 2,
+      "a": "„Na Ketonalu” Żołynia",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 57,
+      "round": 10,
+      "date": "2027-02-21",
+      "order": 3,
+      "a": "Oldboys",
+      "b": "Orły",
+      "score": null
+    },
+    {
+      "id": 58,
+      "round": 10,
+      "date": "2027-02-21",
+      "order": 4,
+      "a": "Pod Rozbrykanym Kucykiem",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 59,
+      "round": 10,
+      "date": "2027-02-21",
+      "order": 5,
+      "a": "Young Boys",
+      "b": "Renga SST Sportur Gmina Łańcut",
+      "score": null
+    },
+    {
+      "id": 60,
+      "round": 10,
+      "date": "2027-02-21",
+      "order": 6,
+      "a": "Lucky Losers",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 61,
+      "round": 11,
+      "date": "2027-02-28",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "Street Warriors",
+      "score": null
+    },
+    {
+      "id": 62,
+      "round": 11,
+      "date": "2027-02-28",
+      "order": 2,
+      "a": "Oldboys",
+      "b": "NoName",
+      "score": null
+    },
+    {
+      "id": 63,
+      "round": 11,
+      "date": "2027-02-28",
+      "order": 3,
+      "a": "„Na Ketonalu” Żołynia",
+      "b": "Sparta Wydrze",
+      "score": null
+    },
+    {
+      "id": 64,
+      "round": 11,
+      "date": "2027-02-28",
+      "order": 4,
+      "a": "Young Boys",
+      "b": "Orły",
+      "score": null
+    },
+    {
+      "id": 65,
+      "round": 11,
+      "date": "2027-02-28",
+      "order": 5,
+      "a": "Pod Rozbrykanym Kucykiem",
+      "b": "Zmarnowany Potencjał",
+      "score": null
+    },
+    {
+      "id": 66,
+      "round": 11,
+      "date": "2027-02-28",
+      "order": 6,
+      "a": "Lucky Losers",
+      "b": "Renga SST Sportur Gmina Łańcut",
+      "score": null
+    }
+  ],
+  "women": [
+    {
+      "id": 1005,
+      "round": 1,
+      "date": "2026-11-29",
+      "order": 1,
+      "a": "Akademia TKF II",
+      "b": "RS Gold Team Sieniawa",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1006,
+      "round": 1,
+      "date": "2026-11-29",
+      "order": 2,
+      "a": "Same ASSY",
+      "b": "Akademia TKF",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1003,
+      "round": 2,
+      "date": "2026-12-13",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "RS Gold Team Sieniawa",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1004,
+      "round": 2,
+      "date": "2026-12-13",
+      "order": 2,
+      "a": "Akademia TKF II",
+      "b": "Same ASSY",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1001,
+      "round": 3,
+      "date": "2027-01-10",
+      "order": 1,
+      "a": "Akademia TKF II",
+      "b": "Akademia TKF",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1002,
+      "round": 3,
+      "date": "2027-01-10",
+      "order": 2,
+      "a": "RS Gold Team Sieniawa",
+      "b": "Same ASSY",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1011,
+      "round": 4,
+      "date": "2027-01-17",
+      "order": 1,
+      "a": "RS Gold Team Sieniawa",
+      "b": "Akademia TKF II",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1012,
+      "round": 4,
+      "date": "2027-01-17",
+      "order": 2,
+      "a": "Akademia TKF",
+      "b": "Same ASSY",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1009,
+      "round": 5,
+      "date": "2027-02-07",
+      "order": 1,
+      "a": "RS Gold Team Sieniawa",
+      "b": "Akademia TKF",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1010,
+      "round": 5,
+      "date": "2027-02-07",
+      "order": 2,
+      "a": "Same ASSY",
+      "b": "Akademia TKF II",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1007,
+      "round": 6,
+      "date": "2027-02-21",
+      "order": 1,
+      "a": "Akademia TKF",
+      "b": "Akademia TKF II",
+      "score": null,
+      "sets": null
+    },
+    {
+      "id": 1008,
+      "round": 6,
+      "date": "2027-02-21",
+      "order": 2,
+      "a": "Same ASSY",
+      "b": "RS Gold Team Sieniawa",
+      "score": null,
+      "sets": null
+    }
+  ],
+  "playoffs": {
+    "men": {}
+  },
+  "roundInfo": {
+    "men": {
+      "1": {
+        "entryTime": "09:30",
+        "breakBefore": {
+          "matchId": 17,
+          "title": "Przerwa w rozgrywkach RLS",
+          "text": "Po meczu o 14:00 na hali odbędzie się mecz II ligi podkarpackiej. Wznowienie RLS o 17:30."
+        }
+      }
+    }
+  },
+  "womenDraw": {
+    "seed": 4137215892,
+    "order": [
+      "Akademia TKF II",
+      "RS Gold Team Sieniawa",
+      "Same ASSY",
+      "Akademia TKF"
+    ],
+    "note": "Kolejki chronologiczne; w źródle 10.01 i 17.01 oznaczone jako 4."
+  },
+  "finalsConfig": {
+    "women": {
+      "date": "2027-03-13",
+      "target": 3
+    }
+  }
+}
