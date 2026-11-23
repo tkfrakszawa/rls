@@ -1,5 +1,18 @@
+const teamLogos = {
+  "Renga SST Sportur Gmina Łańcut": "assets/renga-transparent.webp",
+  "Same ASSY": "assets/same-assy-transparent.webp",
+  "Sparta Wydrze": "assets/sparta-wydrze.webp",
+  "NoName": "assets/noname-transparent.webp",
+  "Young Boys": "assets/young-boys-transparent.webp",
+  "RS Gold Team Sieniawa": "assets/rs-gold-team-transparent.webp",
+  "Pod Rozbrykanym Kucykiem": "assets/pod-rozbrykanym-kucykiem-transparent.webp"
+};
 const teamMarks={'RS Gold Team Sieniawa':['RG',43],'Same ASSY':['SA',290],'Akademia TKF':['AT',35],'Oldboys':['OB',40],'Sparta Wydrze':['SW',8],'Street Warriors':['SW',205],'NoName':['NN',270],'Young Boys':['YB',145],'Zmarnowany Potencjał':['ZP',25],'„Na Ketonalu” Żołynia':['NK',330],'Orły':['O',200],'Lucky Losers':['LL',160],'Renga SST Sportur Gmina Łańcut':['RS',235],'Pod Rozbrykanym Kucykiem':['RK',285]};
-function teamBadge(name){if((name==='Akademia TKF'||name==='Akademia TKF II'))return '<img class="team-badge tkf-badge" src="assets/tkf.ec4d3da6d0.webp" alt="" loading="lazy">';const [initials,hue]=teamMarks[name]||['RLS',0];return `<span class="team-badge crest" style="--team-hue:${hue}" aria-hidden="true"><span class="crest-star">✦</span><b>${initials}</b><span class="crest-line"></span></span>`}
+function teamBadge(name){
+  if (Object.hasOwn(teamLogos, name)) {
+    return `<img class="team-badge" style="object-fit:contain" src="${teamLogos[name]}" alt="" loading="lazy">`;
+  }
+  if((name==='Akademia TKF'||name==='Akademia TKF II'))return '<img class="team-badge tkf-badge" src="assets/tkf.ec4d3da6d0.webp" alt="" loading="lazy">';const [initials,hue]=teamMarks[name]||['RLS',0];return `<span class="team-badge crest" style="--team-hue:${hue}" aria-hidden="true"><span class="crest-star">✦</span><b>${initials}</b><span class="crest-line"></span></span>`}
 function teamLabel(name){return `<span class="team-label">${teamBadge(name)}<strong>${esc(name)}</strong></span>`}
 function matchCard(m){return `<article class="fixture-card match-row">${m.title?`<p class="stage-label">${esc(m.title)}${m.target?` · do ${m.target} wygranych setów`:" · liczba setów do ustalenia"}</p>`:''}<div class="match-teams"><span class="team-label home-team"><strong>${esc(m.a)}</strong>${teamBadge(m.a)}</span><div class="match-score"><b>${m.score?m.score.join(' : '):esc(m.time||'TBD')}</b>${m.sets?.length?`<div class="inline-sets" aria-label="Wyniki setów">${m.sets.map((s,i)=>`<span title="Set ${i+1}">${s.join(':')}</span>`).join('')}</div>`:''}${m.score?`<small>${m.time?esc(m.time)+' · ':''}KONIEC</small>`:'<small>GODZINA</small>'}</div><span class="team-label away-team">${teamBadge(m.b)}<strong>${esc(m.b)}</strong></span></div></article>`}
 

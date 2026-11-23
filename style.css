@@ -126,3 +126,50 @@ body,button,input,select,textarea{font-family:"Open Sans",Arial,sans-serif}
 .round-group.round-disclosure{margin:0 0 24px;border:1px solid color-mix(in srgb,var(--accent) 40%,var(--bg));border-left:4px solid var(--accent);border-radius:12px;background:color-mix(in srgb,var(--bg) 95%,white);overflow:hidden;box-shadow:0 5px 18px #0002}.round-disclosure>summary.round-heading{padding:16px 18px;margin:0;background:color-mix(in srgb,var(--accent) 12%,var(--bg));border:0}.round-disclosure[open]>summary{border-bottom:1px solid color-mix(in srgb,var(--accent) 40%,transparent)}.round-disclosure .round-body{padding:16px}.round-group .fixture-grid{border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);overflow:hidden}.round-group .match-row{background:color-mix(in srgb,var(--bg) 98%,white);border-bottom:1px solid color-mix(in srgb,var(--accent) 30%,var(--bg))}.round-group .match-row:nth-child(even){background:color-mix(in srgb,var(--accent) 10%,var(--bg))}.round-group .match-row:last-child{border-bottom:0}.mini-match:nth-child(even){background:color-mix(in srgb,var(--accent) 7%,var(--bg))}.mini-match{border-bottom-color:color-mix(in srgb,var(--accent) 25%,var(--bg))}@media(max-width:700px){.round-disclosure>summary.round-heading{padding:13px 12px}.round-disclosure .round-body{padding:12px 8px}.round-group.round-disclosure{margin-bottom:18px}}
 
 .schedule-break{grid-column:1/-1;padding:16px 20px;background:color-mix(in srgb,var(--accent) 14%,var(--bg));border-top:1px dashed var(--accent);border-bottom:1px dashed var(--accent);text-align:center}.schedule-break strong{display:block;color:var(--accent);font-size:13px}.schedule-break p{margin:6px 0 0;color:#eee7f4;font-size:12px;line-height:1.5}.dashboard-scroll .schedule-break{padding:13px 12px}.dashboard-scroll .schedule-break p{font-size:11px}
+
+/* Keep team identities prominent within the existing fixture row. */
+body:is([data-view="schedule"], [data-view="results"]) .match-row .match-teams .team-badge {
+  width: 46px;
+  height: 46px;
+}
+body:is([data-view="schedule"], [data-view="results"]) .match-row .team-label strong {
+  min-width: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+@media (max-width: 700px) {
+  body:is([data-view="schedule"], [data-view="results"]) .fixture-card.match-row > div.match-teams {
+    padding: 0 6px;
+    column-gap: 4px;
+  }
+  body:is([data-view="schedule"], [data-view="results"]) .match-row .match-teams .team-label {
+    gap: 2px;
+  }
+  body:is([data-view="schedule"], [data-view="results"]) .match-row .match-teams .team-badge {
+    width: 44px;
+    height: 44px;
+  }
+  body:is([data-view="schedule"], [data-view="results"]) .match-row .team-label strong {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (any-hover: hover) {
+  body:is([data-view="schedule"], [data-view="results"]) .round-group .match-row:hover {
+    background-color: color-mix(in srgb, var(--accent) 23%, var(--bg));
+    box-shadow: inset 3px 0 var(--accent);
+  }
+}
+@media (any-hover: hover) and (prefers-reduced-motion: no-preference) {
+  body:is([data-view="schedule"], [data-view="results"]) .round-group .match-row {
+    transition: background-color 120ms ease-out, box-shadow 120ms ease-out;
+  }
+}
+
+.dashboard-scroll .sunday-women .dashboard-fixtures {
+  border-left: 3px solid var(--accent);
+  background: var(--bg);
+}
+.dashboard-scroll .sunday-league:last-child { margin-bottom: 0; }

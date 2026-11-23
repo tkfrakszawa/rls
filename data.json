@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T20:44:07.544896+00:00",
+  "updated": "2026-11-23T14:45:00.023251+00:00",
   "men": [
     {
       "id": 13,
@@ -8,8 +8,21 @@
       "order": 1,
       "a": "Akademia TKF",
       "b": "Young Boys",
-      "score": null,
-      "time": "10:00"
+      "score": [
+        0,
+        2
+      ],
+      "time": "10:00",
+      "sets": [
+        [
+          15,
+          25
+        ],
+        [
+          20,
+          25
+        ]
+      ]
     },
     {
       "id": 18,
@@ -18,8 +31,21 @@
       "order": 2,
       "a": "Orły",
       "b": "„Na Ketonalu” Żołynia",
-      "score": null,
-      "time": "11:00"
+      "score": [
+        2,
+        0
+      ],
+      "time": "11:00",
+      "sets": [
+        [
+          25,
+          11
+        ],
+        [
+          25,
+          13
+        ]
+      ]
     },
     {
       "id": 15,
@@ -28,8 +54,25 @@
       "order": 3,
       "a": "Oldboys",
       "b": "Lucky Losers",
-      "score": null,
-      "time": "12:00"
+      "score": [
+        2,
+        1
+      ],
+      "time": "12:00",
+      "sets": [
+        [
+          29,
+          27
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          20,
+          18
+        ]
+      ]
     },
     {
       "id": 16,
@@ -38,8 +81,21 @@
       "order": 4,
       "a": "Renga SST Sportur Gmina Łańcut",
       "b": "Street Warriors",
-      "score": null,
-      "time": "13:00"
+      "score": [
+        0,
+        2
+      ],
+      "time": "13:00",
+      "sets": [
+        [
+          18,
+          25
+        ],
+        [
+          10,
+          25
+        ]
+      ]
     },
     {
       "id": 14,
@@ -48,8 +104,21 @@
       "order": 5,
       "a": "Zmarnowany Potencjał",
       "b": "Sparta Wydrze",
-      "score": null,
-      "time": "14:00"
+      "score": [
+        0,
+        2
+      ],
+      "time": "14:00",
+      "sets": [
+        [
+          14,
+          25
+        ],
+        [
+          12,
+          25
+        ]
+      ]
     },
     {
       "id": 17,
@@ -58,35 +127,55 @@
       "order": 6,
       "a": "NoName",
       "b": "Pod Rozbrykanym Kucykiem",
-      "score": null,
-      "time": "17:30"
+      "score": [
+        2,
+        1
+      ],
+      "time": "17:30",
+      "sets": [
+        [
+          25,
+          21
+        ],
+        [
+          30,
+          32
+        ],
+        [
+          16,
+          14
+        ]
+      ]
     },
     {
       "id": 31,
       "round": 2,
       "date": "2026-11-29",
-      "order": 1,
+      "order": 2,
       "a": "Renga SST Sportur Gmina Łańcut",
       "b": "Akademia TKF",
-      "score": null
+      "score": null,
+      "time": "13:00"
     },
     {
       "id": 32,
       "round": 2,
       "date": "2026-11-29",
-      "order": 2,
+      "order": 6,
       "a": "Lucky Losers",
       "b": "Pod Rozbrykanym Kucykiem",
-      "score": null
+      "score": null,
+      "time": "17:00"
     },
     {
       "id": 33,
       "round": 2,
       "date": "2026-11-29",
-      "order": 3,
+      "order": 5,
       "a": "Orły",
       "b": "Zmarnowany Potencjał",
-      "score": null
+      "score": null,
+      "time": "16:00"
     },
     {
       "id": 34,
@@ -95,31 +184,34 @@
       "order": 4,
       "a": "Young Boys",
       "b": "„Na Ketonalu” Żołynia",
-      "score": null
+      "score": null,
+      "time": "15:00"
     },
     {
       "id": 35,
       "round": 2,
       "date": "2026-11-29",
-      "order": 5,
+      "order": 3,
       "a": "NoName",
       "b": "Sparta Wydrze",
-      "score": null
+      "score": null,
+      "time": "14:00"
     },
     {
       "id": 36,
       "round": 2,
       "date": "2026-11-29",
-      "order": 6,
+      "order": 1,
       "a": "Oldboys",
       "b": "Street Warriors",
-      "score": null
+      "score": null,
+      "time": "12:00"
     },
     {
       "id": 1,
       "round": 3,
       "date": "2026-12-06",
-      "order": 1,
+      "order": 3,
       "a": "Akademia TKF",
       "b": "Oldboys",
       "score": null,
@@ -129,7 +221,7 @@
       "id": 2,
       "round": 3,
       "date": "2026-12-06",
-      "order": 2,
+      "order": 6,
       "a": "Sparta Wydrze",
       "b": "Street Warriors",
       "score": null,
@@ -139,7 +231,7 @@
       "id": 3,
       "round": 3,
       "date": "2026-12-06",
-      "order": 3,
+      "order": 2,
       "a": "NoName",
       "b": "Young Boys",
       "score": null,
@@ -149,7 +241,7 @@
       "id": 4,
       "round": 3,
       "date": "2026-12-06",
-      "order": 4,
+      "order": 1,
       "a": "Zmarnowany Potencjał",
       "b": "„Na Ketonalu” Żołynia",
       "score": null,
@@ -169,7 +261,7 @@
       "id": 6,
       "round": 3,
       "date": "2026-12-06",
-      "order": 6,
+      "order": 4,
       "a": "Renga SST Sportur Gmina Łańcut",
       "b": "Pod Rozbrykanym Kucykiem",
       "score": null,
@@ -613,21 +705,23 @@
       "id": 1005,
       "round": 1,
       "date": "2026-11-29",
-      "order": 1,
+      "order": 2,
       "a": "Akademia TKF II",
       "b": "RS Gold Team Sieniawa",
       "score": null,
-      "sets": null
+      "sets": null,
+      "time": "11:00"
     },
     {
       "id": 1006,
       "round": 1,
       "date": "2026-11-29",
-      "order": 2,
+      "order": 1,
       "a": "Same ASSY",
       "b": "Akademia TKF",
       "score": null,
-      "sets": null
+      "sets": null,
+      "time": "10:00"
     },
     {
       "id": 1003,
@@ -742,6 +836,14 @@
           "title": "Przerwa w rozgrywkach RLS",
           "text": "Po meczu o 14:00 na hali odbędzie się mecz II ligi podkarpackiej. Wznowienie RLS o 17:30."
         }
+      },
+      "2": {
+        "entryTime": "09:30"
+      }
+    },
+    "women": {
+      "1": {
+        "entryTime": "09:30"
       }
     }
   },

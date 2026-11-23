@@ -15,10 +15,24 @@ function nextRound(matches,now=new Date(),dateFallback=false){
 }
 root.RLSClock={nextRound,dayKey,midnight,localTime};if(typeof module!=='undefined')module.exports=root.RLSClock;
 })(globalThis);
+function upcomingDay(matches, now = new Date()) {
+ const next = RLSClock.nextRound(matches.filter(match => !match.score), now, league === 'women');
+ if (!next) return { next: null, games: [] };
+ const onDate = (list, division) => list
+   .filter(match => match.date === next.date && !match.score)
+   .map(match => ({ match, division }));
+ const games = onDate(matches, league);
+ if (league === 'men') games.push(...onDate(data.women, 'women'));
+ const timeKey = m => /^\d{2}:\d{2}$/.test(m.time) ? m.time : '99:99';
+ games.sort((a,b) => timeKey(a.match).localeCompare(timeKey(b.match))
+   || (a.division === b.division ? a.match.order - b.match.order : a.division === 'women' ? -1 : 1));
+ const clock = RLSClock.nextRound(games.map(({ match }, index) => ({ ...match, round: next.round, order: index + 1 })), now, league === 'women');
+ return { next: clock, games };
+}
 let homeKey='';
 function renderCountdown(){
  if(!data)return;
- const matches=data[league],next=RLSClock.nextRound(matches,new Date(),league==='women'),el=document.querySelector('#countdown');
+ const matches=data[league],{next}=upcomingDay(matches),el=document.querySelector('#countdown');
  if(!next){el.innerHTML=`<div><p class="eyebrow">${matches.length?'RUNDA ZASADNICZA':'RLS KOBIET'}</p><strong>${matches.length?'Wszystkie terminy kolejek już za nami':'Czekamy na terminarz'}</strong><p class="note">${matches.length?'Sprawdź wyniki i fazę finałową.':'Odliczanie pojawi się po ogłoszeniu dat rozgrywek.'}</p></div>`}
  else{
   const dateDay=next.dateOnly&&next.today;
